@@ -27,7 +27,14 @@ header {
   margin-right: auto;
 }
 #mode {
+  display: flex;
   margin: auto;
+}
+#night,
+#uk {
+  margin-left: 2px;
+  top: 2px;
+  position: relative;
 }
 #lang {
   margin-left: auto;
@@ -43,6 +50,25 @@ main {
   justify-content: space-evenly;
   align-items: center;
 }
+div > span {
+  color: white;
+  text-align: center;
+  display: block;
+}
+#startDateDiv,
+#endDateDiv {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+#inputForms {
+  display: flex;
+  justify-content: center;
+}
+/* #startDate {
+  position: relative;
+  top: 200px;
+} */
 /* Footer styling */
 footer {
   display: flex;
