@@ -55,6 +55,12 @@ div > span {
   text-align: center;
   display: block;
 }
+#startDateInputLabel {
+  background-image: url("img/start.png");
+  background-size: contain;
+  width: 150px;
+  height: 120px;
+}
 #startDateDiv,
 #endDateDiv {
   margin: 0 10px;
@@ -65,10 +71,22 @@ div > span {
   display: flex;
   justify-content: center;
 }
-/* #startDate {
-  position: relative;
-  top: 200px;
-} */
+#startDateInput {
+  /* position: relative;
+  bottom: 66px;
+  width: 85%;
+  margin: 0 auto; */
+  /* border: 2px solid #0d1321; */
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+#startDateInput:focus,
+#startDateInputLabel:focus {
+  border: 4px solid #0d1321;
+  transform: scale(1.1) translate(0px, -60px);
+}
 /* Footer styling */
 footer {
   display: flex;
